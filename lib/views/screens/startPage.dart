@@ -24,27 +24,36 @@ class StartPage extends StatelessWidget {
             ),
           ),
           Positioned(
-            child: Opacity(opacity: 0.8,
-              child: Text(
-                "SIGN UP",
-                style: TextStyle(
-                  fontSize: 50,
-                  
+            child: FlatButton(
+              onPressed: () {  },
+              child: Opacity(opacity: 0.8,
+                child: Text(
+                  "SIGN UP",
+                  style: TextStyle(
+                    fontSize: 48,
+                    fontWeight: FontWeight.w400
+                    
+                  ),
                 ),
               ),
             ),
-            left: devicewidth * 0.05,
+            left: devicewidth * 0.03,
             top: deviceheight*0.05,
           ),
           Positioned(
-            child: Opacity(opacity: 0.8,
-              child: Text(
-                "LOG IN",
-                style: TextStyle(
-                  fontSize: 50
-                  ),)
-              ),
-            left: devicewidth * 0.5,
+            child: FlatButton(
+              onPressed: () {  },
+              child: Opacity(opacity: 0.8,
+                child: Text(
+                  "LOG IN",
+                  
+                  style: TextStyle(
+                    fontSize: 48,
+                    fontWeight: FontWeight.w400
+                    ),)
+                ),
+            ),
+            left: devicewidth * 0.48,
             top: deviceheight*0.8,
           ),
           Center(
