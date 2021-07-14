@@ -41,14 +41,19 @@ class StartPage extends StatelessWidget {
             top: deviceheight*0.05,
           ),
           Positioned(
-            child: FlatButton(
-              onPressed: () {  },
+            child: TextButton(
+              
+              onPressed: () { 
+                print("login");
+                Get.toNamed('/login');
+               },
               child: Opacity(opacity: 0.8,
                 child: Text(
                   "LOG IN",
                   
                   style: TextStyle(
                     fontSize: 48,
+                    color: Colors.black87,
                     fontWeight: FontWeight.w400
                     ),)
                 ),

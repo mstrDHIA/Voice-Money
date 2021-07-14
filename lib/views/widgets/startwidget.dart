@@ -4,6 +4,7 @@ Widget Logo(double scale){
 return Image.asset(
   "assets/logoo.png",
   scale: scale,
+  
   );
 }
 
